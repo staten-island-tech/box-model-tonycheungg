@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1ch;
+}
+
+.header{
+    height: 100vh;
+    background-color: cyan;
+    position: relative;
+    z-index: 3;
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+}
+.eric{
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 50vh;
+    z-index: 1;
+}
+.cat{
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 10vh;
+    z-index: 1;
+}
+#ericliu {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
