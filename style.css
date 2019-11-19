@@ -41,3 +41,18 @@ body{
     padding: 40px;
     text-align: center;
   }
+  .vincent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -90%);
+  }
+  .x{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-5%, 30%);
+    background-size: 100px;
+    height: 300px;
+    z-index: 5;
+  }
