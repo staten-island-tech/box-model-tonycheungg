@@ -1,58 +1,52 @@
-body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    letter-spacing: 1ch;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 1ch;
 }
 
-.header{
-    height: 100vh;
-    background-color: cyan;
-    position: relative;
-    z-index: 3;
+.header {
+  height: 100vh;
+  background-color: cyan;
+  position: relative;
+  z-index: 3;
 }
-.header-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    font-family: 'Anton', sans-serif;
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
 }
-.eric{
-    z-index: -1;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    height: 50vh;
-    z-index: 1;
+.image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
-.cat{
-    z-index: -1;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    height: 10vh;
-    z-index: 1;
+.vincent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -90%);
+}
+.x {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-5%, 0%);
+  height: 300px;
+  z-index: 5;
+}
+#eric {
+  height: 50vh;
+}
+#cat {
+  height: 10vh;
 }
 #ericliu {
-    background-color: rgb(5, 133, 133);
-    color: black;
-    padding: 40px;
-    text-align: center;
-  }
-  .vincent{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-20%, -90%);
-  }
-  .x{
-    position: absolute;
-    top: 80%;
-    left: 80%;
-    transform: translate(-5%, 0%);
-    background-size: 100px;
-    height: 300px;
-    z-index: 5;
-  }
+  background-color: rgb(5, 133, 133);
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
