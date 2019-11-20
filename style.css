@@ -1,12 +1,15 @@
-body {
+html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 62.5%;
+}
+body{
   letter-spacing: 1ch;
 }
 
 .header {
-  height: 100vh;
+  height: 100rem;
   background-color: cyan;
   position: relative;
   z-index: 3;
@@ -21,8 +24,8 @@ body {
 }
 .image {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0rem;
+  top: 0rem;
 }
 .vincent {
   position: absolute;
@@ -35,18 +38,18 @@ body {
   top: 80%;
   left: 80%;
   transform: translate(-5%, 0%);
-  height: 300px;
+  height: 20rem;
   z-index: 5;
 }
 #eric {
-  height: 50vh;
+  height: 30rem;
 }
 #cat {
-  height: 10vh;
+  height: 10rem;
 }
 #ericliu {
   background-color: rgb(5, 133, 133);
   color: black;
-  padding: 40px;
+  padding: 3rem;
   text-align: center;
 }
