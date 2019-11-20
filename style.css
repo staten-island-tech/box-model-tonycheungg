@@ -7,7 +7,6 @@ html {
 body {
   letter-spacing: 1ch;
 }
-
 .header {
   height: 100rem;
   background-color: cyan;
@@ -18,7 +17,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
   text-transform: uppercase;
   font-family: "Anton", sans-serif;
 }
@@ -31,25 +30,28 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-20%, -90%);
+  transform: translate(40%, -90%);
 }
 .x {
   position: absolute;
   top: 80%;
   left: 80%;
-  transform: translate(-5%, 0%);
+  transform: translate(-30%, 0%);
   height: 20rem;
   z-index: 5;
 }
 #eric {
   height: 30rem;
+  transform: translate(-30%, 0%);
 }
 #cat {
-  height: 10rem;
+  height: 11rem;
+  transform: translate(-30%, 0%);
 }
 #ericliu {
   background-color: rgb(5, 133, 133);
   color: black;
   padding: 3rem;
-  text-align: center;
+  font-size: 10rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
