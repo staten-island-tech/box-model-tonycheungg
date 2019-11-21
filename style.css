@@ -30,23 +30,23 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(40%, -90%);
 }
 .x {
   position: absolute;
   top: 80%;
   left: 80%;
-  transform: translate(-30%, 0%);
   height: 20rem;
   z-index: 5;
 }
 #eric {
   height: 30rem;
-  transform: translate(-30%, 0%);
+  position: absolute;
 }
 #cat {
   height: 11rem;
-  transform: translate(-30%, 0%);
+  position: absolute;
+  top: 100%;
+  left: 50%;
 }
 #ericliu {
   background-color: rgb(5, 133, 133);
