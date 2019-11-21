@@ -33,8 +33,6 @@ body {
 }
 .x {
   position: absolute;
-  top: 80%;
-  left: 80%;
   height: 20rem;
   z-index: 5;
 }
@@ -45,8 +43,6 @@ body {
 #cat {
   height: 11rem;
   position: absolute;
-  top: 100%;
-  left: 50%;
 }
 #ericliu {
   background-color: rgb(5, 133, 133);
